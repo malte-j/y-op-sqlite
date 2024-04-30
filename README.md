@@ -2,6 +2,9 @@
   <img  src="https://cdn.malts.me/6Wu0Fj.svg" />
 </p>
 
+## About
+
+y-op-sqlite is a persistence provider for [Yjs](https://github.com/yjs/yjs) that uses [op-sqlite](https://github.com/OP-Engineering/op-sqlite) to store document changes in a SQLite database. This is useful for React Native projects that need to access YJS documents without an internet connection to enable a local-first experience.
 
 ## Installing
 
