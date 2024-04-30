@@ -1,0 +1,48 @@
+{
+  "name": "y-op-sqlite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./vite-vanilla-ts-lib-starter.cjs",
+  "module": "./vite-vanilla-ts-lib-starter.mjs",
+  "types": "./index.d.ts",
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "build": "tsc --noEmit && vite build && dts-bundle-generator --config ./dts-bundle-generator.config.ts && cp package.json dist/package.json && cp README.md dist/README.md"
+  },
+  "keywords": [
+    "yjs",
+    "op-sqlite",
+    "sqlite",
+    "local-first",
+    "offline-first",
+    "realtime",
+    "collaboration",
+    "yjs-provider",
+    "yjs-provider-sqlite",
+    "yjs-provider-op-sqlite",
+    "react-native",
+    "expo"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malte-j/y-op-sqlite.git"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "dts-bundle-generator": "^9.5.1",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10",
+    "vitest": "^1.5.3"
+  },
+  "dependencies": {
+    "lib0": "^0.2.93"
+  },
+  "peerDependencies": {
+    "yjs": "^13.0.0",
+    "@op-engineering/op-sqlite": "^3.0.0"
+  }
+}
