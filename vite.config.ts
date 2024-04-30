@@ -23,11 +23,19 @@ const fileName = {
 
 const formats = Object.keys(fileName) as Array<keyof typeof fileName>;
 
+const peerDependencies = Object.keys(packageJson["peerDependencies"] || {});
+
+console.warn("peerDependencies", peerDependencies);
+
 export default defineConfig({
   base: "./",
+
   build: {
     outDir: "./dist",
     sourcemap: true,
+    rollupOptions: {
+      external: peerDependencies,
+    },
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
       name: getPackageNameCamelCase(),

@@ -1,6 +1,6 @@
 {
   "name": "y-op-sqlite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./vite-vanilla-ts-lib-starter.cjs",
   "module": "./vite-vanilla-ts-lib-starter.mjs",
@@ -10,6 +10,7 @@
   "scripts": {
     "test": "vitest",
     "build": "tsc --noEmit && vite build && dts-bundle-generator --config ./dts-bundle-generator.config.ts && cp package.json dist/package.json && cp README.md dist/README.md"
+    , "publish": "cd dist && npm publish"
   },
   "keywords": [
     "yjs",
