@@ -1,5 +1,5 @@
 <p align="center"> 
-  <img  src="https://github.com/malte-j/y-op-sqlite/assets/12611076/fb46fa45-7f9f-471e-949b-f316d2831a2c" />
+  <img  src="https://cdn.malts.me/6Wu0Fj.svg" />
 </p>
 
 
