@@ -1,6 +1,6 @@
 {
   "name": "y-op-sqlite",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "./vite-vanilla-ts-lib-starter.cjs",
   "module": "./vite-vanilla-ts-lib-starter.mjs",

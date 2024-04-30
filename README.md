@@ -29,7 +29,7 @@ import { OPSQLitePersistence } from 'y-op-sqlite';
 
 // other code...
 
-const provider = new OPSQLitePersistence(docName, ydoc)
+const provider = new OPSQLitePersistence(docName, ydoc);
 
 provider.whenSynced.then(() => {
   console.log("content finished loading from database.");
