@@ -1,6 +1,6 @@
 {
   "name": "y-op-sqlite",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "./y-op-sqlite.cjs",
   "module": "./y-op-sqlite.mjs",
