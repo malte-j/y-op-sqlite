@@ -1,16 +1,15 @@
 {
   "name": "y-op-sqlite",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "",
-  "main": "./y-op-sqlite.cjs",
-  "module": "./y-op-sqlite.mjs",
-  "types": "./index.d.ts",
+  "main": "./dist/y-op-sqlite.cjs",
+  "module": "./dist/y-op-sqlite.mjs",
+  "types": "./dist/index.d.ts",
   "sideEffects": false,
   "type": "module",
   "scripts": {
     "test": "vitest",
-    "build": "tsc --noEmit && vite build && dts-bundle-generator --config ./dts-bundle-generator.config.ts && cp package.json dist/package.json && cp README.md dist/README.md",
-    "publish": "cd dist && npm publish"
+    "build": "tsc --noEmit && vite build && dts-bundle-generator --config ./dts-bundle-generator.config.ts"
   },
   "keywords": [
     "yjs",
@@ -26,7 +25,7 @@
     "react-native",
     "expo"
   ],
-  "author": "",
+  "author": "Malte <hi@malts.me>",
   "license": "MIT",
   "repository": {
     "type": "git",
